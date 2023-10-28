@@ -1,0 +1,218 @@
+﻿
+@font-face {
+    font-family: Alice;
+    src: url(Alice_in_Wonderland_3.ttf);
+}
+
+
+body {
+    font-family: Alice;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h1 {
+    text-align: center;
+    font-size:4rem;
+    color: black;
+    position:relative;
+}
+
+h3 {
+    color: #f5f5cf;
+    font-size: 3rem;
+    margin-top: 0px;
+    background-color: #e4acc5;
+    padding: 20px 0px;
+    text-decoration:underline;
+    text-decoration-thickness:0.1rem;
+    text-decoration-style:wavy;
+}
+
+header {
+    position: relative;
+    /*background-image: url("https://cdn.pixabay.com/photo/2021/07/13/18/58/coffee-6464307_1280.jpg");*/
+    background-image: url("sfondonero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 800px;
+    background-position-x: center;
+    background-position-y: center;
+    max-width: 100%;
+
+}
+
+.cappellaio{
+    text-align:center;
+   padding-top:80px;
+}
+
+.cappellaio img{
+    max-width:300px;
+}
+
+.title {
+    padding-top: 100px;
+    padding-bottom: 20px;   
+}
+
+.navElements {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-right: 1%;
+    margin-left: 1%;
+    position: relative;
+}
+
+.navElements:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition:all ease-in-out 0.4s;
+}
+
+nav {
+    padding-bottom: 10px;
+}
+
+
+
+.menuContainer {
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    justify-content:center;
+    padding-bottom: 50px;
+    max-width:1200px;
+    
+}
+.menuItem {
+    border-radius: 50px;
+    width: 30%;
+    text-align: center;
+    /*background-color: rgb(200, 160, 110, 0.4);*/
+    background-color: #f5f5cf;
+    color: black;
+    margin: 25px;
+    padding: 10px;
+}
+.titoliItems {
+    color: #e4acc5;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.menuItem img {
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.descrizione {
+    padding-left:20px;
+    text-align: left;
+}
+
+li{
+    font-size:1.6rem;
+}
+.navBar {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    
+}
+
+.menuTitle{
+    padding-top:20px;
+    text-align:center;
+}
+
+
+.btnPrenota {
+    text-align: center;
+    background-color: #e4acc5;
+    height: 100px;
+    padding-top: 60px;
+}
+.btnPrenota a {
+    background-color: rgb(50, 50, 50);
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 20px;
+    color: #f5f5cf;
+    font-size: 2.5rem;
+    transition: all .2s ease-in-out;
+}
+
+.btnPrenota a:hover {
+    
+    background-color: #f5f5cf;
+    color: rgb(50, 50, 50);
+    font-size: 2.8rem;
+}
+
+footer {
+    color: #f5f5cf;
+    background-color: rgb(50,50, 50);
+    padding: 30px 60px 70px 60px;
+    font-size:1.8rem;
+}
+
+footer p{
+    margin-bottom: -20px;
+}
+
+.homeImage {
+    text-align: center;
+}
+
+@media(max-width:920px) {
+    .title {
+        padding-top: 120px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+    .menuContainer {
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .menuItem {
+        width: 60%;
+        text-align: center;
+
+    }
+    .navElements {
+        padding: 5px 10px;
+    }
+}    
+
+@media(max-width:680px){
+    h1 {
+        font-size: 2.5rem;
+    }
+    .title {
+        padding-top: 60px;
+    }
+    .menuItem {
+        width: 75%;
+    }
+    .cappellaio img {
+        max-width: 250px;
+    }
+}

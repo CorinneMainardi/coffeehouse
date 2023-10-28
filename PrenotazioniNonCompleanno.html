@@ -1,0 +1,267 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="pagna dedicata alle prenotazioni del locale a tema Alice in wonderland" />
+    <meta name="keywords" content="Coffe House, eventi, Alice in wonderland, smartworking" />
+    <meta name="author" content="classe di bitcamp" />
+    <meta name="robots" content="index,follow" />
+    <meta name="revisit-after" content="15 days" />
+    <meta name="language" content="it" />
+    <meta name="generator" content="visual studio" />
+    <link rel="stylesheet" type="text/css" href="AliceCss.css" />
+    <link rel="stylesheet" type="text/css" href="navBar.css" />
+    <title>CoffeeHouse Prenotazioni</title>
+
+</head>
+<body>
+    <header>
+        <div class="title">
+            <div class="cappellaio">
+                <a href="index.html">  <img src="LogoAliceNero.png" /> </a>
+            </div>
+            <div>
+                <h1>FESTEGGIA IL TUO NON COMPLEANNO</h1>
+            </div>
+            <nav>
+                <div class="navBar">
+                    <a class="navElements" href="index.html">Home</a>
+                    <a class="navElements" href="menu.html">Menu</a>
+                    <a class="navElements" href="AlicePrenotazioni.html">Prenotazioni</a>
+                    <a class="navElements" href="Chi siamo Alice.html">Chi siamo</a>
+                    <a class="navElements" href="Modulo Contatti sito alice.html">Contatti</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="eventononcompleanno" id="eventononcompleanno">
+            Prenota la sala per il tuo evento di "Non compeanno" da "Alice in the Coffee House"
+            <br />
+            Seegli la data e compila il form  <span> <img src="buonnoncompleanno.jpg" widht="150" height="300" alt="festa a tema Alice in wonderland" /></span>
+
+        </h1>
+        <br /> <br />
+        <div class="month">
+            <!--come posso mettere gli altri mesi del calendario?-->
+            <ul>
+                <li class="prev">&#10094;</li>
+                <li class="next">&#10095;</li>
+                <li>Ottobre<br><span style="font-size:18px">2023</span></li>
+            </ul>
+        </div>
+
+        <ul class="weekdays">
+            <li>Mo</li>
+            <li>Tu</li>
+            <li>We</li>
+            <li>Th</li>
+            <li>Fr</li>
+            <li>Sa</li>
+            <li>Su</li>
+        </ul>
+
+        <ul class="days">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li><span class="active">23</span></li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+        </ul>
+        <form action="/cgi-bin/FormMail.pl" method="POST">
+            <span class="style84">
+                <input type=hidden name="recipient" value="bitcampgirlpower@gmail.com">
+                <input type=hidden name="subject" value="RICHIESTA INFORMAZIONI">
+                <input type=hidden name="redirect" value="http://www.bitcampgirlpower.it/BuonNonCompleanno"> <!--devo creare altre pagine dove si ha la conferma??-->
+            </span>
+            <br />
+            <br />
+            <br />
+            <table class="form-eventononcompleanno">
+                <tr>
+                    <td width="255" height="26" align="left" valign="top" class="style84">Nome*</td>
+                    <td width="329" align="left" valign="top">
+                        <span class="style84">
+                            <input type="text" name="nome" value="" class="cstext" />
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="255" align="left" class="style84" valign="top">Cognome*</td>
+                    <td align="left" valign="top">
+                        <span class="style84">
+                            <input type="text" name="cognome" value="" class="cstext" />
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="255" align="left" class="style84" valign="top">Email*</td>
+                    <td align="left" valign="top">
+                        <span class="style84">
+                            <input type="text" name="email" value="" class="cstext" />
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="255" align="left" class="style84" valign="top">
+                        Numero
+                        di persone adulte*
+                    </td>
+                    <td align="left" valign="top">
+                        <span class="style84">
+                            <select name="numero di adulti" class="csnum">
+                                <option value="" selected="selected"></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                            </select>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="255" height="28" align="left" valign="top" class="style84">
+                        Numero
+                        di bambini
+
+                        ( lasciare in bianco se non presenti )
+                    </td>
+                    <td align="left" valign="top" class="style84">
+                        <span class="style84">
+                            <select name="numero di bambini" class="csnum">
+                                <option value="" selected="selected"></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                            </select>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td width="255" height="106" align="left" valign="top" class="style84">
+                        Indicare: <br />
+                        tipo di evento,<br />
+                        eventuali informazioni/richieste aggiuntive <br />
+                        eventuale numero di persone maggiore di 30 adulti e/o 30 bambini.
+
+                    </td>
+                    <td align="left" valign="top">
+                        <span class="style84">
+<textarea name="note aggiuntive" class="csnote" rows="20" cols="50"></textarea>
+                        </span>
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <br />
+            <p class="form-eventononcompleanno-p">
+                <span class="style84">
+                    <input type="Submit" value="Invia">
+                    <input type="reset" name="Pulisci" value="Cancella i dati">
+                </span>
+            </p>
+        </form>
+        <p> vuoi prenotare la tua postazione di lavoro? <a href="PrenotazioniSmartworking.html"> <u> Clicca qui.</u> </a></p>
+    </main>
+    <footer >
+        <!--Perché non riesco a metterle in fila? span non si può usare, devo fare una table?-->
+
+
+        <span>Creato da Sabrina, Corinne, Paulette e Maryam</span>
+        <span>Sede legale Via xy, citta</span>
+
+        <span><address><a href="mailto:bitcampgirlpower@gmail.com">GirlPower</a></address></span>
+
+
+
+        <span>Ultimo aggiornamento</span>
+        <span><time datetime="2023-10-23" pubdate>23 Novembre</time></span>
+
+
+        <small>Tutti i contenuti sono prottetti dalla licenza creative commons</small>
+    </footer>
+
+</body>
+</html>

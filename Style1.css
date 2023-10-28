@@ -1,0 +1,113 @@
+﻿@font-face {
+    src: url(Alice_in_Wonderland_3.ttf);
+    font-family:Alice;    
+}
+body {
+    font-family:Alice;
+    font-size:x-large;
+    
+}
+
+
+
+.description{
+    font-size:xx-large;
+    text-align:center;
+}
+
+.card{
+    font-size:xx-large;
+    padding:15px;
+    
+    
+}
+.img-container{
+    text-align:center;
+
+}
+
+header {
+    position: relative;
+    background-image: url("sfondonero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 800px;
+    background-position-x: center;
+    background-position-y: center;
+    max-width: 100%;
+}
+
+.cappellaio {
+    text-align: center;
+    padding-top: 80px;
+}
+
+    .cappellaio img {
+        max-width: 300px;
+    }
+
+
+.navBar {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+
+    .navElements {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-right: 1%;
+    margin-left: 1%;
+    position: relative;
+}
+
+.navElements:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition:all ease-in-out 0.4s;
+}
+
+footer {
+    color: #f5f5cf;
+    background-color: rgb(50,50, 50);
+    padding: 30px 60px 70px 60px;
+    font-size: 1.8rem;
+}
+
+    footer p {
+        margin-bottom: -20px;
+    }
+
+@media(max-width:920px) {
+    .title {
+        padding-top: 80px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .navElements {
+        padding: 5px 10px;
+    }
+}
+
+@media(max-width:680px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .title {
+        padding-top: 60px;
+    }
+}
